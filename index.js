@@ -38,4 +38,4 @@ app.get('/Home',(req,res)=>{
 
   });
 
-server.listen(port);
+server.listen(port, () => console.log(`Listening on ${ port }`))
